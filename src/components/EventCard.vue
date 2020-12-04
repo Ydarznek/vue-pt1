@@ -9,7 +9,7 @@
         {{ event.title }}
       </h4>
       <BaseIcon name="users">
-        {{ event.attendees.length }} attendees
+        {{ event.attendees ? event.attendees.length : 0 }} attendees
       </BaseIcon>
     </div>
   </router-link>
@@ -19,7 +19,7 @@
 export default {
   props: {
     event: {
-      type: Object,
+      type: [Object],
       required: true
     }
   }

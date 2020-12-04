@@ -1,7 +1,7 @@
 import axios from 'axios'
 
-const apiClien = axios.create({
-  baseURL: 'https://api.mocki.io/v1/49255df6',
+const apiClient = axios.create({
+  baseURL: 'http://localhost:3000',
   withCredentials: false,
   headers: {
     Accept: 'application/json',
@@ -10,11 +10,14 @@ const apiClien = axios.create({
 })
 
 export default {
-  getEvents () {
-    return apiClien.get('/events')
+  getEvents (perPage, page) {
+    return apiClient.get(`/events?_limit=${perPage}&_page=${page}`)
   },
-
   getEvent (id) {
-    return apiClien.get(`/events/${id}`)
+    return apiClient.get(`/events/${id}`)
+  },
+  postEvent (event) {
+    console.log(event)
+    return apiClient.post('/events', event)
   }
 }

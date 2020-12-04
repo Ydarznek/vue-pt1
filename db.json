@@ -1,0 +1,292 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "title": "Beach Cleanup",
+      "category": "sustainability",
+      "location": "Daytona Beach",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "Let's clean up this beach."
+    },
+    {
+      "id": 2,
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "title": "Park Cleanup",
+      "category": "nature",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "We're going to clean up this park."
+    },
+    {
+      "id": 3,
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "title": "Pet Adoption Day",
+      "category": "animal welfare",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Gregg Pollack",
+      "description": "Help animals find new homes."
+    },
+    {
+      "id": 4,
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "title": "Test",
+      "category": "sustainability",
+      "location": "Daytona Beach",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "Let's clean up this beach."
+    },
+    {
+      "id": 5,
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "title": "Test",
+      "category": "nature",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "We're going to clean up this park."
+    },
+    {
+      "id": 6,
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "title": "Test",
+      "category": "animal welfare",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Gregg Pollack",
+      "description": "Help animals find new homes."
+    },
+    {
+      "id": 7,
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "title": "Beach Cleanup",
+      "category": "sustainability",
+      "location": "Daytona Beach",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "Let's clean up this beach."
+    },
+    {
+      "id": 8,
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "title": "Park Cleanup",
+      "category": "nature",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "We're going to clean up this park."
+    },
+    {
+      "id": 9,
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "title": "Pet Adoption Day",
+      "category": "animal welfare",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Gregg Pollack",
+      "description": "Help animals find new homes."
+    },
+    {
+      "id": 10,
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "title": "Beach Cleanup",
+      "category": "sustainability",
+      "location": "Daytona Beach",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "Let's clean up this beach."
+    },
+    {
+      "id": 11,
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "title": "Park Cleanup",
+      "category": "nature",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Adam Jahr",
+      "description": "We're going to clean up this park."
+    },
+    {
+      "id": 12,
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "title": "Pet Adoption Day",
+      "category": "animal welfare",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ],
+      "organizer": "Gregg Pollack",
+      "description": "Help animals find new homes."
+    }
+  ]
+}
