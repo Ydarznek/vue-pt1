@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="event-header">
-      <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
+      <span class="eyebrow">@{{ event.time }} on {{ event.date | date }}</span>
       <h1 class="title">
         {{ event.title }}
       </h1>
@@ -36,21 +36,16 @@
 </template>
 
 <script>
-import { mapState, mapActions } from 'vuex'
 export default {
+  filters: {
+
+  },
   props: {
-    id: {
-      type: [Number, String],
+    event: {
+      type: Object,
       required: true
     }
-  },
-  computed: mapState({
-    event: state => state.event.event
-  }),
-  created () {
-    this.$store.dispatch('event/fetchEvent', this.id)
-  },
-  methods: mapActions('event', ['fetchEvent'])
+  }
 }
 </script>
 
