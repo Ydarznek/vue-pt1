@@ -13,7 +13,6 @@ export default new Vuex.Store({
     notification
   },
   state: {
-
     categories: [
       'sustainability',
       'nature',

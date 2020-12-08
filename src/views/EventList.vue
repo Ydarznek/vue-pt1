@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <h1>Events for {{ user.user.name }}</h1>
+  <div v-if="user.user">
+    <h1>
+      Events for {{ user.user.name }}
+    </h1>
     <EventCard
       v-for="event in event.events"
       :key="event.id"

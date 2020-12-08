@@ -6,16 +6,49 @@
     >
       Events
     </router-link>
-    <nav>
+
+    <template v-if="loggedIn">
       <router-link :to="{name: 'list'}">
         List
-      </router-link> |
+      </router-link>|
       <router-link :to="{name: 'create'}">
         Create
       </router-link>
-    </nav>
+
+      <BaseButton
+        button-class="-fill-gradient"
+        type="button"
+        @click="logout"
+      >
+        Log out
+      </BaseButton>
+    </template>
+
+    <template v-else>
+      <router-link
+        :to="{ name: 'login' }"
+        class="button"
+      >
+        Login
+      </router-link>
+    </template>
   </div>
 </template>
+
+<script>
+import { authComputed } from './../store/helpers'
+
+export default {
+  computed: {
+    ...authComputed
+  },
+  methods: {
+    logout () {
+      this.$store.dispatch('user/logout')
+    }
+  }
+}
+</script>
 
  <style lang="scss" scoped>
 .nav {

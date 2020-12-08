@@ -48,8 +48,8 @@ export const actions = {
   fetchEvents ({ commit, dispatch, state }, { page }) {
     return EventService.getEvents(state.pageSize, page)
       .then(response => {
-        commit('SET_EVENTS_TOTAL', parseInt(response.headers['x-total-count']))
-        commit('SET_EVENTS', response.data)
+        commit('SET_EVENTS_TOTAL', response.data.length)
+        commit('SET_EVENTS', response.data.events)
       })
       .catch(error => {
         const notification = {
